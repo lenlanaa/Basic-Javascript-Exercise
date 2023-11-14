@@ -1,10 +1,6 @@
-function pattern(a,c){
-    for (let a=1; a<=4; a++) {
-        let  a = "";
-        for (let b=1; b<=5; b++) {
-            a += "* ";
-        }
-        console.log(a);
+function pattern(rows,cols){
+    for (let a=0; a < rows; a++) {
+        console.log('* '.repeat(cols));
     }
 }
-pattern (5,4);
+pattern (4,5);

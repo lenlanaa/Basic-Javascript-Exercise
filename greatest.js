@@ -1,4 +1,4 @@
-//Q6.
+Q6.
 
 function greatest(arr){
     var greater;
@@ -14,3 +14,11 @@ function greatest(arr){
 return greater;
 }
 console.log(greatest([12,4,57,8,86,5,657,868]));
+
+//second way
+
+// function greatest(arr){
+//   var sortedArray =arr.sort((a,b) => b-a);
+//   return sortedArray[0];
+// }
+// console.log(greatest([30,90,202,088,0098]));
