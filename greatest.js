@@ -1,4 +1,4 @@
-Q6.
+//Q6.
 
 function greatest(arr){
     var greater;
